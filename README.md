@@ -18,7 +18,11 @@ In a private cluster, the control plane or API server has internal IP addresses 
 
 The [Template.bicep](https://github.com/DavidArayaSanabria/Private_AKS_Cluster_DNS_Options/blob/b717471cb688931b694ac42e3f9754154b1d3d46/Deployment%20Templates/Template.bicep) Azure Bicep template will help you automatically deploy an AKS cluster
 
-You need to modify: enablePrivateCluster: bool
+You need to modify: 
+
+```json
+enablePrivateCluster: bool
+```
 
 # Private AKS DNS options:
 
