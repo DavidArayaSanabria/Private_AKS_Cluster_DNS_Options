@@ -16,7 +16,7 @@ In a private cluster, the control plane or API server has internal IP addresses 
 
 # Create a Private AKS Cluster
 
-The [Template.bicep](Template.bicep) Azure Bicep template will help you automatically deploy an AKS cluster
+The [Template.bicep](https://github.com/DavidArayaSanabria/Private_AKS_Cluster_DNS_Options/blob/b717471cb688931b694ac42e3f9754154b1d3d46/Deployment%20Templates/Template.bicep) Azure Bicep template will help you automatically deploy an AKS cluster
 
 # Private AKS DNS options:
 
@@ -53,6 +53,4 @@ If your client is not on the VNET you can use the az aks invoke command. (AAD in
 - https://docs.microsoft.com/en-us/azure/aks/coredns-custom
 - https://docs.microsoft.com/en-us/azure/templates/microsoft.containerservice/managedclusters?tabs=bicep
 - https://docs.microsoft.com/en-us/azure/firewall/protect-azure-kubernetes-service
-
-
 
