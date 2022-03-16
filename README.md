@@ -9,7 +9,7 @@ In a private cluster, the control plane or API server has internal IP addresses 
 
 ## Target audience
 
-- Infrastructure Architect
+- Infrastructure Engineer
 - Security Team
 - Kubernetes Administrator
 - Cloud Solution Architect
