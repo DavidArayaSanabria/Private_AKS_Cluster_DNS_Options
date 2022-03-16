@@ -48,12 +48,13 @@ This is the simplest option if you do not want to managed private DNS.
 
 Modify your .bicep as below to deploy a private AKS witha public FQDN
 
+```json
 apiServerAccessprofile: {
   enbalePrivateCluster: true
   privateDNSZone: 'none'
   enablePrivateClusterPublicFQDN: true
 }
-
+```
 
 ## Bring Your Own DNS:
 
